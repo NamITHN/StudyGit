@@ -27,6 +27,9 @@ export default class App extends Component<Props> {
         <TouchableOpacity>
           <Text style={{color:"red",fontWeight:'500'}}>Login</Text>
           </TouchableOpacity>
+          <TouchableOpacity>
+          <Text style={{color:"red",fontWeight:'500'}}>SignIn</Text>
+          </TouchableOpacity>
       </View>
     );
   }
