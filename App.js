@@ -25,7 +25,7 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
         <TouchableOpacity>
-          <Text>Login</Text>
+          <Text style={{color:"red"}}>Login</Text>
           </TouchableOpacity>
       </View>
     );
